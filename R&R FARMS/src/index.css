@@ -1,0 +1,53 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Define global styles */
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #000080;
+    color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Styles for headers */
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #D4AF37; /* Chrome Gold */
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for links */
+  a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #C0C0C0; /* Silver */
+  }
+  
+  /* Styles for lists */
+  ul {
+    list-style: none;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  /* Additional global styles as needed */
+  
